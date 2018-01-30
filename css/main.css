@@ -1,0 +1,52 @@
+.main-head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+}
+.org-name {
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 2rem;
+}
+.head-nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+.head-nav li {
+	margin: 1rem;
+	font-size: 18px;
+	font-weight: 400;
+}
+.head-nav a {
+	text-decoration: none;
+	color: #575757;
+}
+.slider-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	height: 70vh;
+	background-color: #f2f2f2;
+}
+.prod-item {
+	width: 30%;
+	height: auto;
+	margin: 20rem;
+}
+.owl-nav {
+	position: absolute;
+	top: 50%;
+	margin: 1rem;
+}
+.owl-next {
+	content: "\f061";
+}

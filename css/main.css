@@ -4,6 +4,7 @@
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Open Sans', sans-serif;
+	z-index: 10;
 }
 .org-name {
 	font-size: 24px;
@@ -34,7 +35,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 70%;
-	height: 70vh;
+	height: 100vh;
 	background-color: #f2f2f2;
 }
 .prod-item {
@@ -42,11 +43,82 @@
 	height: auto;
 	margin: 20rem;
 }
+.owl-carousel {
+	height: 100vh;
+}
 .owl-nav {
 	position: absolute;
-	top: 50%;
+	top: 35%;
 	margin: 1rem;
+	width: 100%;
+}
+.owl-next:before {
+	content: '\f061';
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+    font-size: 2rem;
+}
+.owl-prev:before {
+	content: '\f060';
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+    font-size: 2rem;
 }
 .owl-next {
-	content: "\f061";
+	position: absolute;
+	right: 3%;
+	top: 0;
+}
+.prod-item {
+	margin-top: 5%;
+}
+.prod-desc p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+}
+.prod-desc span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+}
+.prod-buttons {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+}
+.info-btn {
+	width: 130px;
+	height: 53px;
+	background-color: #3d3d3d;
+	border: none;
+	cursor: pointer;
+}
+.info-btn span {
+	color: white;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.card-btn {
+	width: 130px;
+	height: 53px;
+	border: 1px solid #3d3d3d;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.card-btn span {
+	color: #3d3d3d;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
 }

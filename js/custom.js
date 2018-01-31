@@ -4,6 +4,7 @@ $(document).ready(function(){
   	loop: true,
   	items: 1,
   	nav: true,
+  	navText: false,
   	smartSpeed: 700
   });
 });

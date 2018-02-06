@@ -1,0 +1,53 @@
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.head-nav ul {
+		flex-direction: column;
+		padding: 0;
+	}
+	.container-top {
+		width: 80%;
+		height: 400px;
+	}
+	.prod-item {
+		margin: 5rem;
+		margin-top: 0;
+		width: 50%;
+	}
+	.container-top .owl-carousel {
+		height: 380px;
+	}
+	.prod-desc p {
+		font-size: 18px;
+		margin: 5px;
+	}
+	.prod-desc span {
+		font-size: 16px;
+	}
+	.container-top .owl-nav {
+		width: 94%;
+	}
+	.middle {
+		width: 80%;
+		height: 750px;
+		flex-direction: column;
+	}
+	.middle .left-slider {
+		width: 100%;
+		height: 40%;
+	}
+	.left-slider .owl-nav {
+		margin: 0;
+		top: 25%;
+	}
+	.left-slider .owl-next {
+		right: 0;
+	}
+	.left-slider-item {
+		height: 40%;
+	}
+	.right-desc {
+		width: 100%;
+		height: 450px;
+		margin-top: 1rem;
+	}
+}

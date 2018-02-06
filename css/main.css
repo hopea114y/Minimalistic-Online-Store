@@ -264,8 +264,48 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 .map {
 	width: 70%;
 	height: 50vh;
+}
+.adress {
+	position: absolute;
+	top: 0;
+	left: 12.5rem;
+	width: 20%;
+	height: 25vh;
+	background-color: #3d3d3d;
+}
+.adress span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+	display: block;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+.adress p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 1rem;
+}
+.adress a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+.soc-icons {
+	margin-top: 1rem;
+}
+.soc-icons a:hover {
+	color: grey;
+	transition: color 0.25s ease;
 }

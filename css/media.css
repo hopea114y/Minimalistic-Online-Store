@@ -50,4 +50,27 @@
 		height: 450px;
 		margin-top: 1rem;
 	}
+	.recommended-area {
+		width: 80%;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(8, 1fr);
+	}
+	.magazine-desc {
+		width: 80%;
+	}
+	.footer-desc {
+		flex-direction: column-reverse;
+	}
+	.map {
+		width: 80%;
+		height: 300px;
+	}
+	.adress {
+		position: relative;
+		width: 80%;
+		left: 0;
+	}
+	.delivery p:nth-child(1), .delivery p:nth-child(2) {
+		text-align: center;
+	}
 }
